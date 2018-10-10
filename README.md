@@ -22,7 +22,7 @@
 To make that you need to change these value in the main.js
 
 
-var myGrid = {
+`var myGrid = {
 
   gridWidthUnit: "vw", // Works in % and px too 
   
@@ -39,5 +39,5 @@ var myGrid = {
 };
 
 
-setGridLayout(myGrid);
+setGridLayout(myGrid);`
 
