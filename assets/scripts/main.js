@@ -4,7 +4,7 @@ var myGrid = {
   gridGutterWidthUnit: "vw",
   gridColumnNumber: 12,
   gridGutterWidth: 2,
-  activateGrid: true
+  activateGrid: false
 };
 
 setGridLayout(myGrid);

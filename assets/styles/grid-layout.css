@@ -32,8 +32,9 @@
   right:0;
   background: linear-gradient(to right, #bfffcd 0%,#93efdd 100%);
   border:none;
-  height: 50px;
-  width:50px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
   padding:15px;
 }
 .grid-row {

@@ -19,7 +19,7 @@ function setGridLayout( object ) {
 
 
   createGrid.DOMGridButton.classList.add("grid-button");
-  createGrid.DOMGridButton.innerHTML = "ON";
+  createGrid.DOMGridButton.innerHTML = "Remove";
 
   document.getElementsByTagName("body")[0].appendChild(createGrid.DOMGridContainer);
   document.getElementsByTagName("body")[0].appendChild(createGrid.DOMGridButton);
@@ -51,13 +51,13 @@ function setGridLayout( object ) {
   }
   //Checks if there needs to start active/inactive
   createGrid.bActive = object.activateGrid;
-  if(createGrid.bActive == true) {
+  if(createGrid.bActive == true) {gp
     createGrid.DOMGridContainer.style.opacity = 1;
-    createGrid.DOMGridButton.innerHTML = "ON";
+    createGrid.DOMGridButton.innerHTML = "Display";
   }
   if(createGrid.bActive == false) {
     createGrid.DOMGridContainer.style.opacity = 0;
-    createGrid.DOMGridButton.innerHTML = "OFF";
+    createGrid.DOMGridButton.innerHTML = "Display";
   }
 }
 
@@ -65,11 +65,11 @@ createGrid.DOMGridButton.addEventListener("click", function() {
   if(createGrid.bActive == false) {
     createGrid.bActive = true;
     createGrid.DOMGridContainer.style.opacity = 1;
-    createGrid.DOMGridButton.innerHTML = "ON";
+    createGrid.DOMGridButton.innerHTML = "Remove";
   }
   else {
     createGrid.bActive = false;
     createGrid.DOMGridContainer.style.opacity = 0;
-    createGrid.DOMGridButton.innerHTML = "OFF";
+    createGrid.DOMGridButton.innerHTML = "Display";
   }
 });
