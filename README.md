@@ -22,22 +22,21 @@
 To make that you need to change these value in the main.js
 
 
-`var myGrid = {
+`var myGrid = {`
 
-  gridWidthUnit: "vw", // Works in % and px too 
+  `gridWidthUnit: "vw", // Works in % and px too `
   
-  gridWidth: 85, // Most of time i'm filing this on my '.container' class's width
+  `gridWidth: 85, // Most of time i'm filing this on my '.container' class's width`
   
-  gridGutterWidthUnit: "vw", // Works in % and px too 
+  `gridGutterWidthUnit: "vw", // Works in % and px too `
   
-  gridColumnNumber: 12, // Better keep 12 for desktop
+  `gridColumnNumber: 12, // Better keep 12 for desktop`
   
-  gridGutterWidth: 2,
+  `gridGutterWidth: 2,`
   
-  activateGrid: false
+  `activateGrid: false`
   
-};
+`};`
 
-
-setGridLayout(myGrid);`
+`setGridLayout(myGrid);`
 
